@@ -23,3 +23,6 @@ __pycache__/
 *.log
 .env
 .env.*
+
+# 本地 SQLite 数据库（运行时自动生成）
+data/*.db

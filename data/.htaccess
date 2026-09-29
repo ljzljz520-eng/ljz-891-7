@@ -1,0 +1,6 @@
+# Apache：禁止通过 Web 直接访问 SQLite 数据库
+Require all denied
+<IfModule !mod_authz_core.c>
+    Order allow,deny
+    Deny from all
+</IfModule>
